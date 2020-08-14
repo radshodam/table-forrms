@@ -1,0 +1,29 @@
+@import "./fonts";
+@import "./back_hover";
+body {
+    font-family: "IRANSans";
+    direction: rtl;
+    text-align: right;
+    background-color: #99e4c5;
+}
+
+.form {
+    background-color: #fcfcfc;
+    margin-top: 100px;
+    padding: 50px;
+    input {
+        width: 128%;
+    }
+}
+
+.table {
+    overflow-x: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-size: small;
+}
+
+td:hover {
+    background-color: $table-hover;
+}
